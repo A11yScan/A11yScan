@@ -1,0 +1,15 @@
+2023-05-04 17:30:19 685292 [+] We will write mylog messages for here: /home/yuxin/code/rebuild/log.txt
+2023-05-04 17:30:19 685404 [+] Get apks folder: /home/yuxin/code/rebuild/apks
+2023-05-04 17:30:19 685445 [+] Get result folder: /home/yuxin/code/rebuild/result
+2023-05-04 17:30:19 685492 [+] find 1 : a2dp.Vol_169.apk
+2023-05-04 17:30:19 685525 [+] Total apks: 1
+2023-05-04 17:30:30 621171 [new_icc_res] : /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot/a2dp.Vol_169
+2023-05-04 17:30:30 621233 [iccbot_dir] : /home/yuxin/code/rebuild/enhance/icc
+2023-05-04 17:30:30 621262 [apks_dir] : /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist
+2023-05-04 17:30:30 621285 [apk_name] : a2dp.Vol_169.apk
+2023-05-04 17:30:30 621306 [iccjar_path] : /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar
+2023-05-04 17:30:30 621327 [androidJar] : /home/yuxin/code/rebuild/enhance/icc/lib/platforms
+2023-05-04 17:30:30 621347 [outputDir] : /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot
+2023-05-04 17:30:30 623540 timeout 13m java -jar -Xmx6g /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar  -path /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist  -name a2dp.Vol_169.apk  -androidJar  /home/yuxin/code/rebuild/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot 
+2023-05-04 17:30:30 624820 timeout 13m java -jar -Xmx6g /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar  -path /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist  -name a2dp.Vol_169.apk  -androidJar  /home/yuxin/code/rebuild/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot 
+2023-05-04 17:30:30 626006 timeout 13m java -jar -Xmx6g /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar  -path /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist  -name a2dp.Vol_169.apk  -androidJar  /home/yuxin/code/rebuild/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot 
