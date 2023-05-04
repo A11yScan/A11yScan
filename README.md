@@ -10,15 +10,13 @@ The goal of A11yScan is to automatically explore and detect accessibility issues
 * Android Emulator (x86_64): Android 11.0
 
 ## Usage
-The **ExplorDetector** folder is the source code for _Panoramic UI Exploration and Detection_, while the **ResourceAnalysis** folder is for _Fine-Grained Resource Analysis_, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories _AccessTemp_ and _OutputFile_ under the ``Files/Downloads'' folder in the virtual machine.
+The **ExplorDetector** folder is the source code for _Panoramic UI Exploration and Detection_, while the **ResourceAnalysis** folder is for _Fine-Grained Resource Analysis_, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories _AccessTemp_ and _OutputFile_ under the "Files/Downloads" folder in the virtual machine.
 * Input: the apk file
 * Output: detection reports for accessibility issues and other relevant parsing results
 * Usage: python main.py [apks_folder], python run_analysis.py [result_folder]
 
 ## Website
-* Dataset of Iris: 
-https://sites.google.com/view/iris-mobile/home
-* Dataset of 100 apps and the constructed reference DB: 
-https://drive.google.com/drive/folders/1MOEnN1j54HkRvTsigTodIpUo0IEWcOIJ?usp=sharing
-* Website of Xbot (used as a detection tool): 
+* Dataset of 100 apps: 
+https://drive.google.com/drive/folders/1n3KyZ5aAyVjE0HnQI10AnAUVTRTmUndL?usp=sharing
+* Website of Xbot (another detection tool): 
 https://github.com/tjusenchen/Xbot
