@@ -1,6 +1,6 @@
 # A11yScan-mobile
 ## A11yScan: Automated Dynamic and Fine-Grained Accessibility Testing for Android Apps
-The goal of Iris is to automatically repair the color-based accessibility issues in Android apps while maintaining the original UI design style of the repaired app as much as possible. We have made the source code of Iris and the corresponding dataset publicly available. We hope this project can help more developers solve the problem of color-based accessibility issues. Please feel free to contact us if you have any questions and issues. We will continue to maintain this project. Thanks for your feedback.
+The goal of A11yScan is to automatically explore and detect accessibility issues in Android apps. Compared with the existing tools, A11yScan achieves significantly better performance in both UI scenario exploration and issue detection, which reduces the hidden danger of false negatives. Additionally, A11yScan introduces a resource trees-based method to validate the accuracy of detected issues and classify them, which effectively reduces false positives. We have made the source code of A11yScan and the corresponding dataset publicly available. We hope this project can help more developers comprehensively and accurately detect accessibility issues. Please feel free to contact us if you have any questions and issues. We will continue to maintain this project. Thanks for your feedback.
 
 ## Environment Configuration
 * Ubuntu/Macbook
