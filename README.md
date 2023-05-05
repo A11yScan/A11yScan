@@ -11,7 +11,7 @@ The goal of A11yScan is to automatically explore and detect accessibility issues
 
 ## Usage
 The **ExplorDetector** folder is the source code for _Panoramic UI Exploration and Detection_, while the **ResourceAnalysis** folder is for _Fine-Grained Resource Analysis_, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories _AccessTemp_ and _OutputFile_ under the "Files/Downloads" folder in the virtual machine.
-* Input: the apk(s) file
+* Input: the APK(s) file
 * Output: detection reports for accessibility issues and other relevant parsing results
 * Usage: python ExplorDetector/main.py [apks_folder], python ResourceAnalysis/run_analysis.py [result_folder]
 
