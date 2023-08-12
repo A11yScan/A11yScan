@@ -17,3 +17,7 @@ The **ExplorDetector** folder is the source code for Panoramic UI Exploration an
 
 ## Website
 * Dataset of 100 apps: https://drive.google.com/drive/folders/1WcWGclb2hRkTOuxxflyOTynVSjsEf_h2?usp=sharing
+
+## Cases
+* Cases for panoramic UI exploration and detection.
+* Cases for detecting false positives by using resource trees.
