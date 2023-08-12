@@ -20,4 +20,8 @@ The **ExplorDetector** folder is the source code for Panoramic UI Exploration an
 
 ## Cases
 * Cases for panoramic UI exploration and detection.
+  ![Image text](https://github.com/A11yScan/A11yScan/Cases for panoramic UI exploration and detection-com.afoollestad.png)
+  ![Image text](https://github.com/A11yScan/A11yScan/Cases for panoramic UI exploration and detection-au.com.wall.png)
 * Cases for detecting false positives by using resource trees.
+  ![Image text](https://github.com/A11yScan/A11yScan/Cases for detecting false positives by using resource trees-UI Presentation.png)
+  ![Image text](https://github.com/A11yScan/A11yScan/Cases for detecting false positives by using resource trees-Specific UI Design.png)
