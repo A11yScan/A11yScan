@@ -58,6 +58,7 @@ def parseManifest(p):
 if __name__ == '__main__':
     test = "com.gaurav.avnc"
     path = "../testfile/AndroidManifest.xml"
+    path = "/home/yuxin/code/rebuild1/result/aq.metallists.loudbang-45/unpack/AndroidManifest.xml"
     parse_result = extract_activity_action(path, test)
     print(parse_result)
     # 初始化Activiy列表

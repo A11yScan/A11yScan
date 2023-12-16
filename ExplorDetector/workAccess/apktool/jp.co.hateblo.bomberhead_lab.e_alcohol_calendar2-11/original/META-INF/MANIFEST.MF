@@ -1,0 +1,117 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: BEgtLjtxzbX5CLHLk0CefjTNU7o=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: BEgtLjtxzbX5CLHLk0CefjTNU7o=
+
+Name: res/layout/setumei.xml
+SHA1-Digest: WRIHdqjr9o+LSnUeoOiqR1xhHQg=
+
+Name: resources.arsc
+SHA1-Digest: muXmxmarhjG8AEstPOF0a3UDM1E=
+
+Name: res/layout/eventdetail.xml
+SHA1-Digest: /1+9RXSLia4VBvdmVy7hAuWgG4c=
+
+Name: res/drawable/chenge_botan.xml
+SHA1-Digest: wkQ8qYwachAplvDLLntghiSoW+A=
+
+Name: res/drawable/c_botan.png
+SHA1-Digest: GLpQETRetFwsWFT9mgT6QSjLm78=
+
+Name: drawable/beadopt_close_button_down.png
+SHA1-Digest: +Os4v2fOhqs+MQvO8alfroZL+dY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 2qXJMhw9PS1kT/Nj1e+WiInNiSA=
+
+Name: res/drawable/c_tub.png
+SHA1-Digest: yEL2yKa8QmoshG8eXApFtvsjNv4=
+
+Name: res/layout/datecell.xml
+SHA1-Digest: piukV0B8dMhssrsFltSA2URD6Jc=
+
+Name: res/layout/eventeditor.xml
+SHA1-Digest: CmbR8NnAyoPoUu784FrepEMVGrQ=
+
+Name: res/layout/konomama.xml
+SHA1-Digest: m8cJijdksR/ShOwZ2xws4AaMPKs=
+
+Name: jsr305_annotations/v0_r47/V0_r47.gwt.xml
+SHA1-Digest: /f34xYwskAvrKqRB+jFPzJ8rPJg=
+
+Name: res/drawable/tekisuto.png
+SHA1-Digest: DaA23rZPNUIWgeZ7dPlmew2zR50=
+
+Name: res/layout/kakakuhyou.xml
+SHA1-Digest: A+T6bcon9i3smJ6uV7HC0evjMpI=
+
+Name: res/drawable/back_zu.png
+SHA1-Digest: INIMhIT7JY5X+3fYIC9v2Se91vU=
+
+Name: res/layout/start.xml
+SHA1-Digest: aYKYn4/4AfJSKutubNirTmMJbmo=
+
+Name: res/layout/settei.xml
+SHA1-Digest: R8XxsfkJd4vzWIaiClgJ7Ozxa5Q=
+
+Name: jsr305_annotations/Jsr305_annotations.gwt.xml
+SHA1-Digest: UBXHoAGmseBGDwjR6/MFHfcIK7g=
+
+Name: res/drawable/title_gazou.png
+SHA1-Digest: sEpxFcb5kgpEA3rUm+nu5XIBWgI=
+
+Name: res/drawable/yes_no.png
+SHA1-Digest: t2A6EX7GXdTIJlSm4sGrgV/0Reg=
+
+Name: classes.dex
+SHA1-Digest: sKJ9q9bhxhQS3UAT244FgArRiXA=
+
+Name: res/drawable/chenge_yes_no.xml
+SHA1-Digest: gI1nIoJD86aBYpLc1vQH1Mz2Rn8=
+
+Name: res/drawable-xxhdpi/ic_launcher.png
+SHA1-Digest: BEgtLjtxzbX5CLHLk0CefjTNU7o=
+
+Name: res/layout/splush.xml
+SHA1-Digest: IbB/ZknQVQzZlgQE6EY9DRd9yuo=
+
+Name: res/drawable/title.png
+SHA1-Digest: 5IB2+3O2Icr7Wtt5/0hTwJsAbQ0=
+
+Name: res/drawable/c_yes_no.png
+SHA1-Digest: K8Y3HNAFydIPynYEeoTob6l4pWQ=
+
+Name: res/layout/activity_tuuka.xml
+SHA1-Digest: RHbIa7AQ9ucQiI8o8vRFfPjgcDA=
+
+Name: res/layout/main.xml
+SHA1-Digest: 47AntVNnUj8NbtzFCckswqotNvM=
+
+Name: res/drawable/tub.png
+SHA1-Digest: 1m36S46OeJXmwO/+44Onnw0qfQo=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: BEgtLjtxzbX5CLHLk0CefjTNU7o=
+
+Name: res/drawable/botan.png
+SHA1-Digest: iFCA9qU7na33/7AI0y4mE7TWMMo=
+
+Name: drawable/beadopt_close_button_up.png
+SHA1-Digest: r2jxZSsJJuWBAljrRC72/G7W8ek=
+
+Name: res/drawable/icon.png
+SHA1-Digest: vPgAGHFCxuPNsGVl1gIcZ2ZeQxA=
+
+Name: drawable/beadlogo.png
+SHA1-Digest: vtAyB7H05euIrtQFoPYb2iYt91g=
+
+Name: res/drawable/chenge_tub.xml
+SHA1-Digest: cK9Bq92Qs8pDd0ju4aZPQ9nGHKQ=
+
+Name: res/layout/shuturyoku.xml
+SHA1-Digest: Z45GvFGnclFnVFZqT3yx4ATew68=
+

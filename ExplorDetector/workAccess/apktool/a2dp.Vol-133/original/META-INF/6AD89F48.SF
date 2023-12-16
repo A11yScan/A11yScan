@@ -1,0 +1,140 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 3id3RH3xVmRzQLwpHi3e3p9Bndw=
+Created-By: 1.7.0_111 (Oracle Corporation)
+SHA1-Digest-Manifest: zmMsPBq/ufpZ9smceqHySYJ8YK0=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: LwSaYe+ctbOvlh/wb9TlQHOEUJU=
+
+Name: res/mipmap-hdpi-v4/car.png
+SHA1-Digest: F1e6po16zDHP65yGgD7Yxg/ir78=
+
+Name: res/layout/app_list_item.xml
+SHA1-Digest: rQFMs2/oTcQqhkYqcuAXNdDb1MU=
+
+Name: res/layout/pandora_station_list.xml
+SHA1-Digest: p8CeR5Gvl43hpU3AiHngyuKpRts=
+
+Name: resources.arsc
+SHA1-Digest: PgOTlsD1r4AgZjOl0bm0Kutz2mo=
+
+Name: META-INF/buildserverid
+SHA1-Digest: 7MDXt8TlK/QJHjwjSsQzAfvGMkk=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: dxa09ya1mJjTeq8wx2mCsS3o5CQ=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: BGSthk9aeSNOAl2+iHyNN+17or0=
+
+Name: res/drawable/headset.png
+SHA1-Digest: zG/B0i+hyh+zu6JRupxrO+rHJwQ=
+
+Name: AndroidManifest.xml
+SHA1-Digest: h9CmY9nIFsV1dpSEj+ZJsIbC0W8=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: 3AsAl1c/cttAO71HByLbQgx0z98=
+
+Name: res/mipmap-xxxhdpi-v4/car.png
+SHA1-Digest: e5ZmsMkWTWZirBAdR7/Bxn8H6MU=
+
+Name: res/mipmap-mdpi-v4/car.png
+SHA1-Digest: KAGIlGoIUhEkCsfziO8dWlI24yc=
+
+Name: res/layout/package_list_item.xml
+SHA1-Digest: lMbRmUtSmFsBSJApvrA7i9yOj/Q=
+
+Name: res/mipmap-xhdpi-v4/car.png
+SHA1-Digest: P9ODZ0eGfbLWukOAG4yldGigaac=
+
+Name: res/mipmap-xxxhdpi-v4/jack.png
+SHA1-Digest: 3M1qcQm/3OkX/7LGMdf0lAqlf64=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA1-Digest: Q80CDM62vqhS+35WLO6e1dHgkfw=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: ZY69UJkcEZTZhwtDnjuw5XRTL1k=
+
+Name: res/mipmap-xhdpi-v4/jack.png
+SHA1-Digest: xWzToLzL7dsZT+BJkhQ4S7GkTrI=
+
+Name: res/menu/menu.xml
+SHA1-Digest: rHmbtHitJcDsH72qoKlEGjBqdio=
+
+Name: res/xml/accessconfig.xml
+SHA1-Digest: Gja5FnV1GMpe0FcHvEGqdLtvauE=
+
+Name: res/layout/pandora_station_item.xml
+SHA1-Digest: GK0gsmL4pS7p60LeK+o2lddL73c=
+
+Name: res/layout/managedata.xml
+SHA1-Digest: wXAyki+xv02LtPBpvM8JiicMlmo=
+
+Name: res/layout/custom_intent.xml
+SHA1-Digest: rtqiwi9l1csXdWpmo/ntYzj5Bvs=
+
+Name: META-INF/fdroidserverid
+SHA1-Digest: rmI5GOwW0viF2g+uWcL8vtbbntA=
+
+Name: classes.dex
+SHA1-Digest: CvGElhZcSpggaVNS36Z+v0CG0uM=
+
+Name: res/mipmap-hdpi-v4/jack.png
+SHA1-Digest: drVRntmL4FDagl8hp4xb0h/C48E=
+
+Name: res/menu/packages_chooser.xml
+SHA1-Digest: 4O+70DoPFTe0+j0jTiTZTqr1Kbc=
+
+Name: res/layout/edit_item.xml
+SHA1-Digest: k0OlRl0RG8A57oQ9nGSpeqDalFQ=
+
+Name: res/drawable/icon5.png
+SHA1-Digest: ZoTb1dq+byRM2aZt0KNa9/oAzS8=
+
+Name: res/layout/main.xml
+SHA1-Digest: mOz3oh8boMuqgIebiWzw9a0BumY=
+
+Name: res/layout/app_list.xml
+SHA1-Digest: aiL1lak6XNnY6lmfNh038U6RcU0=
+
+Name: res/layout/widgetlayout.xml
+SHA1-Digest: AkktZBXZCgKEz/sU47n7o0IXh3k=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: 2IgwVxL2ZhRCP6cQ7I5HM/A0i58=
+
+Name: res/mipmap-xxhdpi-v4/car.png
+SHA1-Digest: 3zNPOJ+rpRr+dB6HPf6owwJy2PY=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: v4s7m6NLxykvmorjcWQA2DVhZlg=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: m9StbaBpU0th+Lr9LFPKoMzEzrc=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: oINr6qDg9HqB+0Hd/bhfq/YzzCg=
+
+Name: res/mipmap-mdpi-v4/jack.png
+SHA1-Digest: Sd/8D9iVotIcYPCthCJ9zmUbcBM=
+
+Name: res/drawable/jack.png
+SHA1-Digest: /BqwgE4jFqXsAqkgOC1GWifHWGc=
+
+Name: res/mipmap-xxhdpi-v4/jack.png
+SHA1-Digest: xrK+VqQNofqS+vGVibrwz+JKKNM=
+
+Name: res/layout/activity_packages_chooser.xml
+SHA1-Digest: qthlsgrFckvrpCXXWN9KaeKDjNg=
+
+Name: res/xml/widget.xml
+SHA1-Digest: SjOQmOjeRRdwUaAQlV9FCt5KTUU=
+
+Name: res/drawable/usb.png
+SHA1-Digest: bubl7j1mLYcDsQmZm+2Yol9sa9g=
+
+Name: res/drawable/car2.png
+SHA1-Digest: do+JxBpwJ4V7slDkVdH0PULkuq8=
+

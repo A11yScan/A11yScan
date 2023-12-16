@@ -14,7 +14,8 @@ from repkg import repkg
 from enhance import iccbot, myjadx
 from fuzz import buildscreen
 from tools import transcreen
-
+from addDymatic import checkWeight
+from dymaic import run_apk_again
 
 
 # config
@@ -44,6 +45,7 @@ def init_apk(apk_dir, apkname):
     print("[+] set project result dir: ", project_result_dir)
 
     p = project.project(project_id, project_result_dir, aapt_info['versionCode'], aapt_info['used_pkg_name'], apk_dir)
+
     if p.p_id != "" and p.res_dir != "":
         print("[+] creat new project: ", project_id)
     else:
@@ -51,6 +53,7 @@ def init_apk(apk_dir, apkname):
     p.apks_folder = apks_folder
     p.root_dir = os.getcwd()
     p.apk_name = apkname
+
     return p
 
 
@@ -265,6 +268,16 @@ if __name__ == '__main__':
             # out1 = os.system(cmd1)
             start_time = time.time()
             run_apk.run(p, phone_list[0])
+            # zyx
+            print("Start run again!")
+            try:
+                node_weight = checkWeight.checkWeight(p.res_dir)
+                print("Start run again!")
+                print(node_weight)
+                run_apk_again.runAgain(p, phone_list[0], node_weight)
+            except:
+                pass
+
             end_time = time.time()
             consume_time = end_time - start_time
             print("explore finished in " + str(consume_time) + "s")
@@ -289,3 +302,9 @@ if __name__ == '__main__':
             continue
         phone_list[0].uiauto.app_stop(p.used_name)
         phone_list[0].uiauto.app_uninstall(p.used_name)
+
+        try:
+            apkPath = p.apk_path
+            os.remove(os.path.join(apks_folder,apkPath.split('/')[-1]))
+        except:
+            pass

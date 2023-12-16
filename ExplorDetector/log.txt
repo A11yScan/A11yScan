@@ -1,15 +1,499 @@
-2023-05-04 17:30:19 685292 [+] We will write mylog messages for here: /home/yuxin/code/rebuild/log.txt
-2023-05-04 17:30:19 685404 [+] Get apks folder: /home/yuxin/code/rebuild/apks
-2023-05-04 17:30:19 685445 [+] Get result folder: /home/yuxin/code/rebuild/result
-2023-05-04 17:30:19 685492 [+] find 1 : a2dp.Vol_169.apk
-2023-05-04 17:30:19 685525 [+] Total apks: 1
-2023-05-04 17:30:30 621171 [new_icc_res] : /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot/a2dp.Vol_169
-2023-05-04 17:30:30 621233 [iccbot_dir] : /home/yuxin/code/rebuild/enhance/icc
-2023-05-04 17:30:30 621262 [apks_dir] : /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist
-2023-05-04 17:30:30 621285 [apk_name] : a2dp.Vol_169.apk
-2023-05-04 17:30:30 621306 [iccjar_path] : /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar
-2023-05-04 17:30:30 621327 [androidJar] : /home/yuxin/code/rebuild/enhance/icc/lib/platforms
-2023-05-04 17:30:30 621347 [outputDir] : /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot
-2023-05-04 17:30:30 623540 timeout 13m java -jar -Xmx6g /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar  -path /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist  -name a2dp.Vol_169.apk  -androidJar  /home/yuxin/code/rebuild/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot 
-2023-05-04 17:30:30 624820 timeout 13m java -jar -Xmx6g /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar  -path /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist  -name a2dp.Vol_169.apk  -androidJar  /home/yuxin/code/rebuild/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot 
-2023-05-04 17:30:30 626006 timeout 13m java -jar -Xmx6g /home/yuxin/code/rebuild/enhance/icc/ICCBot.jar  -path /home/yuxin/code/rebuild/result/a2dp.Vol-169/unpack/dist  -name a2dp.Vol_169.apk  -androidJar  /home/yuxin/code/rebuild/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/rebuild/result/a2dp.Vol-169/iccbot 
+2023-12-12 04:00:02 268906 [+] We will write mylog messages for here: /home/yuxin/code/accessTest/log.txt
+2023-12-12 04:00:02 269032 [+] Get apks folder: /home/yuxin/code/accessTest/apks
+2023-12-12 04:00:02 269072 [+] Get result folder: /home/yuxin/code/accessTest/result
+2023-12-12 04:00:02 269135 [+] find 1 : com.radyokaradenizfm.com.apk
+2023-12-12 04:00:02 269169 [+] find 2 : com.mcal.disassembler.apk
+2023-12-12 04:00:02 269199 [+] find 3 : com.DesainKaoscouplekeluarga.yulianiAPP.apk
+2023-12-12 04:00:02 269228 [+] find 4 : com.Rp.BeautifulGalleryOfEarring.apk
+2023-12-12 04:00:02 269258 [+] find 5 : com.yupartfczytt.ertyvctips.plddfgd.apk
+2023-12-12 04:00:02 269288 [+] find 6 : com.bnradio.androidapp.apk
+2023-12-12 04:00:02 269317 [+] find 7 : com.biggaloapp.kamkomworker.apk
+2023-12-12 04:00:02 269345 [+] find 8 : appinventor.ai_magorwilly.DMX.apk
+2023-12-12 04:00:02 269374 [+] find 9 : com.droidmedic.sociologydictionary.apk
+2023-12-12 04:00:02 269403 [+] find 10 : com.testsexamen.qcminfobts.apk
+2023-12-12 04:00:02 269432 [+] find 11 : com.halawiat.manziliya.maghribia.olyo.apk
+2023-12-12 04:00:02 269461 [+] find 12 : com.appsadda.dubaiphotoframes.apk
+2023-12-12 04:00:02 269490 [+] find 13 : it.xmenu.girasole.apk
+2023-12-12 04:00:02 269520 [+] find 14 : fastingtimeforfree.startfastingdietnow.intermitenttracker.apk
+2023-12-12 04:00:02 269549 [+] find 15 : com.ariflaks01.babysafe4.apk
+2023-12-12 04:00:02 269578 [+] find 16 : redfox.app.ergaajaalala.apk
+2023-12-12 04:00:02 269607 [+] find 17 : com.mim.bangla.to.english.apk
+2023-12-12 04:00:02 269636 [+] find 18 : net.wallapa.superhero.apk
+2023-12-12 04:00:02 269665 [+] find 19 : appinventor.ai_deividxfox.chat.apk
+2023-12-12 04:00:02 269693 [+] find 20 : apps.infinite.outerspacesound.apk
+2023-12-12 04:00:02 269721 [+] find 21 : com.licalmadi.apk
+2023-12-12 04:00:02 269751 [+] find 22 : com.mongol.curarresfriado.apk
+2023-12-12 04:00:02 269781 [+] find 23 : io.makeroid.bns12555.inter.apk
+2023-12-12 04:00:02 269810 [+] find 24 : com.rajnishkhadse.e_Pariksha.apk
+2023-12-12 04:00:02 269839 [+] find 25 : com.mda.carbit.apk
+2023-12-12 04:00:02 269896 [+] find 26 : com.proxibuzz.proxiibuzz.apk
+2023-12-12 04:00:02 269928 [+] find 27 : com.blast.valley.apk
+2023-12-12 04:00:02 269965 [+] find 28 : com.appybuilder.remidoank.ScarTissueBestSongs.apk
+2023-12-12 04:00:02 269997 [+] find 29 : io.kodular.rcrofficework.Learn_English.apk
+2023-12-12 04:00:02 270034 [+] find 30 : com.mvb2.sunset.apk
+2023-12-12 04:00:02 270067 [+] find 31 : com.tabyiid.assnan.app_luna.apk
+2023-12-12 04:00:02 270097 [+] find 32 : com.DesainBajuMuslimcouple.wisnua.apk
+2023-12-12 04:00:02 270135 [+] find 33 : b4a.johorgolf.apk
+2023-12-12 04:00:02 270165 [+] find 34 : com.min.crocknroll.apk
+2023-12-12 04:00:02 270193 [+] find 35 : com.botasepessegos.fishnjump.apk
+2023-12-12 04:00:02 270223 [+] find 36 : com.droidcook.kiss.love.wallpaper.apk
+2023-12-12 04:00:02 270253 [+] find 37 : com.droidmedic.internettechnologies.apk
+2023-12-12 04:00:02 270294 [+] find 38 : com.app4joy.hungary_free.apk
+2023-12-12 04:00:02 270330 [+] find 39 : sure.overandundertips.apk
+2023-12-12 04:00:02 270359 [+] find 40 : io.kodular.monstersindia239.nickname.apk
+2023-12-12 04:00:02 270389 [+] find 41 : io.kodular.foxaplicativos2019.Web_Radio_Granjeiro.apk
+2023-12-12 04:00:02 270418 [+] find 42 : com.orangemuffin.impulse.apk
+2023-12-12 04:00:02 270446 [+] find 43 : ro.pontes.culturagenerala.apk
+2023-12-12 04:00:02 270475 [+] find 44 : com.lakhaapp.guideforrobjail.apk
+2023-12-12 04:00:02 270504 [+] find 45 : com.screenshot.easyscreenshot.capturescreen.apk
+2023-12-12 04:00:02 270553 [+] Total apks: 45
+2023-12-12 04:07:43 332361 [new_icc_res] : /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/iccbot/com.radyokaradenizfm.com
+2023-12-12 04:07:43 332424 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:07:43 332453 [apks_dir] : /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/unpack/dist
+2023-12-12 04:07:43 332479 [apk_name] : com.radyokaradenizfm.com.apk
+2023-12-12 04:07:43 332503 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:07:43 332533 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:07:43 332556 [outputDir] : /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/iccbot
+2023-12-12 04:07:43 334589 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/unpack/dist  -name com.radyokaradenizfm.com.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/iccbot 
+2023-12-12 04:07:43 335606 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/unpack/dist  -name com.radyokaradenizfm.com.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/iccbot 
+2023-12-12 04:07:43 336664 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/unpack/dist  -name com.radyokaradenizfm.com.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.radyokaradenizfm.com-2/iccbot 
+2023-12-12 04:08:56 501083 [new_icc_res] : /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/iccbot/com.mcal.disassembler
+2023-12-12 04:08:56 501151 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:08:56 501180 [apks_dir] : /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/unpack/dist
+2023-12-12 04:08:56 501211 [apk_name] : com.mcal.disassembler.apk
+2023-12-12 04:08:56 501238 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:08:56 501265 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:08:56 501300 [outputDir] : /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/iccbot
+2023-12-12 04:08:56 503141 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/unpack/dist  -name com.mcal.disassembler.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/iccbot 
+2023-12-12 04:08:56 504172 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/unpack/dist  -name com.mcal.disassembler.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/iccbot 
+2023-12-12 04:08:56 505298 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/unpack/dist  -name com.mcal.disassembler.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.mcal.disassembler-5/iccbot 
+2023-12-12 04:09:13 371543 [new_icc_res] : /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/iccbot/com.DesainKaoscouplekeluarga.yulianiAPP
+2023-12-12 04:09:13 371616 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:09:13 371646 [apks_dir] : /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/unpack/dist
+2023-12-12 04:09:13 371671 [apk_name] : com.DesainKaoscouplekeluarga.yulianiAPP.apk
+2023-12-12 04:09:13 371695 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:09:13 371718 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:09:13 371748 [outputDir] : /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/iccbot
+2023-12-12 04:09:13 373357 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/unpack/dist  -name com.DesainKaoscouplekeluarga.yulianiAPP.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/iccbot 
+2023-12-12 04:09:13 374391 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/unpack/dist  -name com.DesainKaoscouplekeluarga.yulianiAPP.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/iccbot 
+2023-12-12 04:09:13 375450 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/unpack/dist  -name com.DesainKaoscouplekeluarga.yulianiAPP.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.DesainKaoscouplekeluarga.yulianiAPP-1/iccbot 
+2023-12-12 04:09:26 596854 [new_icc_res] : /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/iccbot/com.Rp.BeautifulGalleryOfEarring
+2023-12-12 04:09:26 596923 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:09:26 596952 [apks_dir] : /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/unpack/dist
+2023-12-12 04:09:26 596976 [apk_name] : com.Rp.BeautifulGalleryOfEarring.apk
+2023-12-12 04:09:26 596999 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:09:26 597022 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:09:26 597043 [outputDir] : /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/iccbot
+2023-12-12 04:09:26 598685 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/unpack/dist  -name com.Rp.BeautifulGalleryOfEarring.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/iccbot 
+2023-12-12 04:09:26 599668 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/unpack/dist  -name com.Rp.BeautifulGalleryOfEarring.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/iccbot 
+2023-12-12 04:09:26 600626 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/unpack/dist  -name com.Rp.BeautifulGalleryOfEarring.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.Rp.BeautifulGalleryOfEarring-3/iccbot 
+2023-12-12 04:10:29 536612 [new_icc_res] : /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/iccbot/com.yupartfczytt.ertyvctips.plddfgd
+2023-12-12 04:10:29 536682 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:10:29 536711 [apks_dir] : /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/unpack/dist
+2023-12-12 04:10:29 536743 [apk_name] : com.yupartfczytt.ertyvctips.plddfgd.apk
+2023-12-12 04:10:29 536785 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:10:29 536822 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:10:29 536858 [outputDir] : /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/iccbot
+2023-12-12 04:10:29 538854 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/unpack/dist  -name com.yupartfczytt.ertyvctips.plddfgd.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/iccbot 
+2023-12-12 04:10:29 539929 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/unpack/dist  -name com.yupartfczytt.ertyvctips.plddfgd.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/iccbot 
+2023-12-12 04:10:29 541092 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/unpack/dist  -name com.yupartfczytt.ertyvctips.plddfgd.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.yupartfczytt.ertyvctips.plddfgd-19/iccbot 
+2023-12-12 04:10:46 107544 [new_icc_res] : /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/iccbot/com.bnradio.androidapp
+2023-12-12 04:10:46 107622 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:10:46 107655 [apks_dir] : /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/unpack/dist
+2023-12-12 04:10:46 107681 [apk_name] : com.bnradio.androidapp.apk
+2023-12-12 04:10:46 107706 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:10:46 107731 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:10:46 107755 [outputDir] : /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/iccbot
+2023-12-12 04:10:46 109637 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/unpack/dist  -name com.bnradio.androidapp.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/iccbot 
+2023-12-12 04:10:46 111033 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/unpack/dist  -name com.bnradio.androidapp.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/iccbot 
+2023-12-12 04:10:46 112374 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/unpack/dist  -name com.bnradio.androidapp.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.bnradio.androidapp-10003/iccbot 
+2023-12-12 04:11:29 499665 [new_icc_res] : /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/iccbot/com.biggaloapp.kamkomworker
+2023-12-12 04:11:29 499737 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:11:29 499768 [apks_dir] : /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/unpack/dist
+2023-12-12 04:11:29 499794 [apk_name] : com.biggaloapp.kamkomworker.apk
+2023-12-12 04:11:29 499824 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:11:29 499848 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:11:29 499872 [outputDir] : /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/iccbot
+2023-12-12 04:11:29 501541 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/unpack/dist  -name com.biggaloapp.kamkomworker.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/iccbot 
+2023-12-12 04:11:29 502530 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/unpack/dist  -name com.biggaloapp.kamkomworker.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/iccbot 
+2023-12-12 04:11:29 503570 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/unpack/dist  -name com.biggaloapp.kamkomworker.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.biggaloapp.kamkomworker-2/iccbot 
+2023-12-12 04:11:59 491167 [new_icc_res] : /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/iccbot/appinventor.ai_magorwilly.DMX
+2023-12-12 04:11:59 491238 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:11:59 491268 [apks_dir] : /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/unpack/dist
+2023-12-12 04:11:59 491293 [apk_name] : appinventor.ai_magorwilly.DMX.apk
+2023-12-12 04:11:59 491317 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:11:59 491339 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:11:59 491362 [outputDir] : /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/iccbot
+2023-12-12 04:11:59 492959 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/unpack/dist  -name appinventor.ai_magorwilly.DMX.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/iccbot 
+2023-12-12 04:11:59 493983 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/unpack/dist  -name appinventor.ai_magorwilly.DMX.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/iccbot 
+2023-12-12 04:11:59 495117 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/unpack/dist  -name appinventor.ai_magorwilly.DMX.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/appinventor.ai_magorwilly.DMX-9/iccbot 
+2023-12-12 04:18:32 475692 [new_icc_res] : /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/iccbot/com.droidmedic.sociologydictionary
+2023-12-12 04:18:32 475763 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:18:32 475791 [apks_dir] : /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/unpack/dist
+2023-12-12 04:18:32 475833 [apk_name] : com.droidmedic.sociologydictionary.apk
+2023-12-12 04:18:32 475863 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:18:32 475919 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:18:32 475941 [outputDir] : /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/iccbot
+2023-12-12 04:18:32 477758 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/unpack/dist  -name com.droidmedic.sociologydictionary.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/iccbot 
+2023-12-12 04:18:32 478857 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/unpack/dist  -name com.droidmedic.sociologydictionary.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/iccbot 
+2023-12-12 04:18:32 479962 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/unpack/dist  -name com.droidmedic.sociologydictionary.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.droidmedic.sociologydictionary-4/iccbot 
+2023-12-12 04:18:49 765148 [new_icc_res] : /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/iccbot/com.testsexamen.qcminfobts
+2023-12-12 04:18:49 765524 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:18:49 765557 [apks_dir] : /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/unpack/dist
+2023-12-12 04:18:49 765581 [apk_name] : com.testsexamen.qcminfobts.apk
+2023-12-12 04:18:49 765605 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:18:49 765630 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:18:49 765653 [outputDir] : /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/iccbot
+2023-12-12 04:18:49 767293 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/unpack/dist  -name com.testsexamen.qcminfobts.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/iccbot 
+2023-12-12 04:18:49 768289 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/unpack/dist  -name com.testsexamen.qcminfobts.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/iccbot 
+2023-12-12 04:18:49 769284 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/unpack/dist  -name com.testsexamen.qcminfobts.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.testsexamen.qcminfobts-5/iccbot 
+2023-12-12 04:19:21 173199 [new_icc_res] : /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/iccbot/com.halawiat.manziliya.maghribia.olyo
+2023-12-12 04:19:21 173270 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:19:21 173299 [apks_dir] : /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/unpack/dist
+2023-12-12 04:19:21 173329 [apk_name] : com.halawiat.manziliya.maghribia.olyo.apk
+2023-12-12 04:19:21 173353 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:19:21 173376 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:19:21 173399 [outputDir] : /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/iccbot
+2023-12-12 04:19:21 175069 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/unpack/dist  -name com.halawiat.manziliya.maghribia.olyo.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/iccbot 
+2023-12-12 04:19:21 176054 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/unpack/dist  -name com.halawiat.manziliya.maghribia.olyo.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/iccbot 
+2023-12-12 04:19:21 177018 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/unpack/dist  -name com.halawiat.manziliya.maghribia.olyo.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.halawiat.manziliya.maghribia.olyo-1/iccbot 
+2023-12-12 04:19:48 183643 [new_icc_res] : /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/iccbot/com.appsadda.dubaiphotoframes
+2023-12-12 04:19:48 183712 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:19:48 183743 [apks_dir] : /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/unpack/dist
+2023-12-12 04:19:48 183768 [apk_name] : com.appsadda.dubaiphotoframes.apk
+2023-12-12 04:19:48 183792 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:19:48 183815 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:19:48 183838 [outputDir] : /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/iccbot
+2023-12-12 04:19:48 185463 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/unpack/dist  -name com.appsadda.dubaiphotoframes.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/iccbot 
+2023-12-12 04:19:48 186472 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/unpack/dist  -name com.appsadda.dubaiphotoframes.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/iccbot 
+2023-12-12 04:19:48 187586 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/unpack/dist  -name com.appsadda.dubaiphotoframes.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.appsadda.dubaiphotoframes-1/iccbot 
+2023-12-12 04:20:07 255774 [new_icc_res] : /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/iccbot/it.xmenu.girasole
+2023-12-12 04:20:07 255843 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:20:07 255882 [apks_dir] : /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/unpack/dist
+2023-12-12 04:20:07 255908 [apk_name] : it.xmenu.girasole.apk
+2023-12-12 04:20:07 255933 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:20:07 255957 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:20:07 255980 [outputDir] : /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/iccbot
+2023-12-12 04:20:07 257548 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/unpack/dist  -name it.xmenu.girasole.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/iccbot 
+2023-12-12 04:20:07 258661 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/unpack/dist  -name it.xmenu.girasole.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/iccbot 
+2023-12-12 04:20:07 259767 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/unpack/dist  -name it.xmenu.girasole.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/it.xmenu.girasole-201028/iccbot 
+2023-12-12 04:20:40 284586 [new_icc_res] : /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/iccbot/fastingtimeforfree.startfastingdietnow.intermitenttracker
+2023-12-12 04:20:40 284657 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:20:40 284686 [apks_dir] : /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/unpack/dist
+2023-12-12 04:20:40 284712 [apk_name] : fastingtimeforfree.startfastingdietnow.intermitenttracker.apk
+2023-12-12 04:20:40 284736 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:20:40 284760 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:20:40 284783 [outputDir] : /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/iccbot
+2023-12-12 04:20:40 286481 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/unpack/dist  -name fastingtimeforfree.startfastingdietnow.intermitenttracker.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/iccbot 
+2023-12-12 04:20:40 287422 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/unpack/dist  -name fastingtimeforfree.startfastingdietnow.intermitenttracker.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/iccbot 
+2023-12-12 04:20:40 288779 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/unpack/dist  -name fastingtimeforfree.startfastingdietnow.intermitenttracker.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/fastingtimeforfree.startfastingdietnow.intermitenttracker-25/iccbot 
+2023-12-12 04:24:16 462306 [new_icc_res] : /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/iccbot/com.ariflaks01.babysafe4
+2023-12-12 04:24:16 462407 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:24:16 462437 [apks_dir] : /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/unpack/dist
+2023-12-12 04:24:16 462477 [apk_name] : com.ariflaks01.babysafe4.apk
+2023-12-12 04:24:16 462518 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:24:16 462543 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:24:16 462581 [outputDir] : /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/iccbot
+2023-12-12 04:24:16 464363 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/unpack/dist  -name com.ariflaks01.babysafe4.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/iccbot 
+2023-12-12 04:24:16 465379 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/unpack/dist  -name com.ariflaks01.babysafe4.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/iccbot 
+2023-12-12 04:24:16 466505 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/unpack/dist  -name com.ariflaks01.babysafe4.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.ariflaks01.babysafe4-1/iccbot 
+2023-12-12 04:29:32 895374 [new_icc_res] : /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/iccbot/redfox.app.ergaajaalala
+2023-12-12 04:29:32 895441 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:29:32 895472 [apks_dir] : /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/unpack/dist
+2023-12-12 04:29:32 895497 [apk_name] : redfox.app.ergaajaalala.apk
+2023-12-12 04:29:32 895522 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:29:32 895547 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:29:32 895570 [outputDir] : /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/iccbot
+2023-12-12 04:29:32 897262 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/unpack/dist  -name redfox.app.ergaajaalala.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/iccbot 
+2023-12-12 04:29:32 898305 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/unpack/dist  -name redfox.app.ergaajaalala.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/iccbot 
+2023-12-12 04:29:32 899333 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/unpack/dist  -name redfox.app.ergaajaalala.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/redfox.app.ergaajaalala-3/iccbot 
+2023-12-12 04:29:50 852685 [new_icc_res] : /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/iccbot/com.mim.bangla.to.english
+2023-12-12 04:29:50 852763 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:29:50 852792 [apks_dir] : /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/unpack/dist
+2023-12-12 04:29:50 852817 [apk_name] : com.mim.bangla.to.english.apk
+2023-12-12 04:29:50 852841 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:29:50 852863 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:29:50 852886 [outputDir] : /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/iccbot
+2023-12-12 04:29:50 854530 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/unpack/dist  -name com.mim.bangla.to.english.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/iccbot 
+2023-12-12 04:29:50 855524 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/unpack/dist  -name com.mim.bangla.to.english.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/iccbot 
+2023-12-12 04:29:50 856576 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/unpack/dist  -name com.mim.bangla.to.english.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.mim.bangla.to.english-2/iccbot 
+2023-12-12 04:30:04 128552 [new_icc_res] : /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/iccbot/net.wallapa.superhero
+2023-12-12 04:30:04 128622 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:30:04 128651 [apks_dir] : /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/unpack/dist
+2023-12-12 04:30:04 128677 [apk_name] : net.wallapa.superhero.apk
+2023-12-12 04:30:04 128701 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:30:04 128724 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:30:04 128747 [outputDir] : /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/iccbot
+2023-12-12 04:30:04 130372 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/unpack/dist  -name net.wallapa.superhero.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/iccbot 
+2023-12-12 04:30:04 131364 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/unpack/dist  -name net.wallapa.superhero.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/iccbot 
+2023-12-12 04:30:04 132570 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/unpack/dist  -name net.wallapa.superhero.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/net.wallapa.superhero-3/iccbot 
+2023-12-12 04:30:18 608541 [new_icc_res] : /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/iccbot/appinventor.ai_deividxfox.chat
+2023-12-12 04:30:18 608613 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:30:18 608650 [apks_dir] : /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/unpack/dist
+2023-12-12 04:30:18 608675 [apk_name] : appinventor.ai_deividxfox.chat.apk
+2023-12-12 04:30:18 608699 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:30:18 608722 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:30:18 608746 [outputDir] : /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/iccbot
+2023-12-12 04:30:18 610374 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/unpack/dist  -name appinventor.ai_deividxfox.chat.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/iccbot 
+2023-12-12 04:30:18 611323 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/unpack/dist  -name appinventor.ai_deividxfox.chat.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/iccbot 
+2023-12-12 04:30:18 612382 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/unpack/dist  -name appinventor.ai_deividxfox.chat.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/appinventor.ai_deividxfox.chat-9/iccbot 
+2023-12-12 04:35:29 698408 [new_icc_res] : /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/iccbot/apps.infinite.outerspacesound
+2023-12-12 04:35:29 698474 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:35:29 698503 [apks_dir] : /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/unpack/dist
+2023-12-12 04:35:29 698528 [apk_name] : apps.infinite.outerspacesound.apk
+2023-12-12 04:35:29 698568 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:35:29 698591 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:35:29 698613 [outputDir] : /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/iccbot
+2023-12-12 04:35:29 700271 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/unpack/dist  -name apps.infinite.outerspacesound.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/iccbot 
+2023-12-12 04:35:29 701473 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/unpack/dist  -name apps.infinite.outerspacesound.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/iccbot 
+2023-12-12 04:35:29 702633 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/unpack/dist  -name apps.infinite.outerspacesound.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/apps.infinite.outerspacesound-6/iccbot 
+2023-12-12 04:35:43 958312 [new_icc_res] : /home/yuxin/code/accessTest/result/com.licalmadi-1/iccbot/com.licalmadi
+2023-12-12 04:35:43 958382 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:35:43 958418 [apks_dir] : /home/yuxin/code/accessTest/result/com.licalmadi-1/unpack/dist
+2023-12-12 04:35:43 958462 [apk_name] : com.licalmadi.apk
+2023-12-12 04:35:43 958501 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:35:43 958542 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:35:43 958565 [outputDir] : /home/yuxin/code/accessTest/result/com.licalmadi-1/iccbot
+2023-12-12 04:35:43 960162 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.licalmadi-1/unpack/dist  -name com.licalmadi.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.licalmadi-1/iccbot 
+2023-12-12 04:35:43 961229 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.licalmadi-1/unpack/dist  -name com.licalmadi.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.licalmadi-1/iccbot 
+2023-12-12 04:35:43 962437 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.licalmadi-1/unpack/dist  -name com.licalmadi.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.licalmadi-1/iccbot 
+2023-12-12 04:35:49 085116 [new_icc_res] : /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/iccbot/com.mongol.curarresfriado
+2023-12-12 04:35:49 085184 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:35:49 085215 [apks_dir] : /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/unpack/dist
+2023-12-12 04:35:49 085240 [apk_name] : com.mongol.curarresfriado.apk
+2023-12-12 04:35:49 085265 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:35:49 085288 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:35:49 085312 [outputDir] : /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/iccbot
+2023-12-12 04:35:49 086963 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/unpack/dist  -name com.mongol.curarresfriado.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/iccbot 
+2023-12-12 04:35:49 087842 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/unpack/dist  -name com.mongol.curarresfriado.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/iccbot 
+2023-12-12 04:35:49 088840 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/unpack/dist  -name com.mongol.curarresfriado.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.mongol.curarresfriado-1/iccbot 
+2023-12-12 04:36:42 076537 [new_icc_res] : /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/iccbot/io.makeroid.bns12555.inter
+2023-12-12 04:36:42 076626 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:36:42 076690 [apks_dir] : /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/unpack/dist
+2023-12-12 04:36:42 076747 [apk_name] : io.makeroid.bns12555.inter.apk
+2023-12-12 04:36:42 076778 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:36:42 076816 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:36:42 076874 [outputDir] : /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/iccbot
+2023-12-12 04:36:42 078644 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/unpack/dist  -name io.makeroid.bns12555.inter.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/iccbot 
+2023-12-12 04:36:42 079862 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/unpack/dist  -name io.makeroid.bns12555.inter.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/iccbot 
+2023-12-12 04:36:42 081036 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/unpack/dist  -name io.makeroid.bns12555.inter.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/io.makeroid.bns12555.inter-6/iccbot 
+2023-12-12 04:45:16 907019 [new_icc_res] : /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/iccbot/com.rajnishkhadse.e_Pariksha
+2023-12-12 04:45:16 907122 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:45:16 907169 [apks_dir] : /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/unpack/dist
+2023-12-12 04:45:16 907209 [apk_name] : com.rajnishkhadse.e_Pariksha.apk
+2023-12-12 04:45:16 907250 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:45:16 907306 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:45:16 907365 [outputDir] : /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/iccbot
+2023-12-12 04:45:16 909159 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/unpack/dist  -name com.rajnishkhadse.e_Pariksha.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/iccbot 
+2023-12-12 04:45:16 910249 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/unpack/dist  -name com.rajnishkhadse.e_Pariksha.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/iccbot 
+2023-12-12 04:45:16 911596 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/unpack/dist  -name com.rajnishkhadse.e_Pariksha.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.rajnishkhadse.e_Pariksha-1/iccbot 
+2023-12-12 04:51:44 642976 [new_icc_res] : /home/yuxin/code/accessTest/result/com.mda.carbit-33/iccbot/com.mda.carbit
+2023-12-12 04:51:44 643045 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:51:44 643076 [apks_dir] : /home/yuxin/code/accessTest/result/com.mda.carbit-33/unpack/dist
+2023-12-12 04:51:44 643102 [apk_name] : com.mda.carbit.apk
+2023-12-12 04:51:44 643126 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:51:44 643157 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:51:44 643180 [outputDir] : /home/yuxin/code/accessTest/result/com.mda.carbit-33/iccbot
+2023-12-12 04:51:44 644711 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mda.carbit-33/unpack/dist  -name com.mda.carbit.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.mda.carbit-33/iccbot 
+2023-12-12 04:51:44 645655 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mda.carbit-33/unpack/dist  -name com.mda.carbit.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.mda.carbit-33/iccbot 
+2023-12-12 04:51:44 646692 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mda.carbit-33/unpack/dist  -name com.mda.carbit.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.mda.carbit-33/iccbot 
+2023-12-12 04:52:06 530720 [new_icc_res] : /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/iccbot/com.proxibuzz.proxiibuzz
+2023-12-12 04:52:06 530788 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:52:06 530818 [apks_dir] : /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/unpack/dist
+2023-12-12 04:52:06 530845 [apk_name] : com.proxibuzz.proxiibuzz.apk
+2023-12-12 04:52:06 530869 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:52:06 530894 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:52:06 530917 [outputDir] : /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/iccbot
+2023-12-12 04:52:06 532467 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/unpack/dist  -name com.proxibuzz.proxiibuzz.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/iccbot 
+2023-12-12 04:52:06 533537 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/unpack/dist  -name com.proxibuzz.proxiibuzz.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/iccbot 
+2023-12-12 04:52:06 534593 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/unpack/dist  -name com.proxibuzz.proxiibuzz.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.proxibuzz.proxiibuzz-10312/iccbot 
+2023-12-12 04:53:17 647570 [new_icc_res] : /home/yuxin/code/accessTest/result/com.blast.valley-2/iccbot/com.blast.valley
+2023-12-12 04:53:17 647659 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:53:17 647705 [apks_dir] : /home/yuxin/code/accessTest/result/com.blast.valley-2/unpack/dist
+2023-12-12 04:53:17 647747 [apk_name] : com.blast.valley.apk
+2023-12-12 04:53:17 647785 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:53:17 647826 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:53:17 647850 [outputDir] : /home/yuxin/code/accessTest/result/com.blast.valley-2/iccbot
+2023-12-12 04:53:17 649568 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.blast.valley-2/unpack/dist  -name com.blast.valley.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.blast.valley-2/iccbot 
+2023-12-12 04:53:17 650671 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.blast.valley-2/unpack/dist  -name com.blast.valley.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.blast.valley-2/iccbot 
+2023-12-12 04:53:17 651719 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.blast.valley-2/unpack/dist  -name com.blast.valley.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.blast.valley-2/iccbot 
+2023-12-12 04:53:34 842198 [new_icc_res] : /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/iccbot/com.appybuilder.remidoank.ScarTissueBestSongs
+2023-12-12 04:53:34 842268 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:53:34 842299 [apks_dir] : /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/unpack/dist
+2023-12-12 04:53:34 842324 [apk_name] : com.appybuilder.remidoank.ScarTissueBestSongs.apk
+2023-12-12 04:53:34 842349 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:53:34 842373 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:53:34 842396 [outputDir] : /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/iccbot
+2023-12-12 04:53:34 843963 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/unpack/dist  -name com.appybuilder.remidoank.ScarTissueBestSongs.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/iccbot 
+2023-12-12 04:53:34 844983 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/unpack/dist  -name com.appybuilder.remidoank.ScarTissueBestSongs.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/iccbot 
+2023-12-12 04:53:34 846120 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/unpack/dist  -name com.appybuilder.remidoank.ScarTissueBestSongs.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.appybuilder.remidoank.ScarTissueBestSongs-1/iccbot 
+2023-12-12 04:55:02 761613 [new_icc_res] : /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/iccbot/io.kodular.rcrofficework.Learn_English
+2023-12-12 04:55:02 761684 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 04:55:02 761715 [apks_dir] : /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/unpack/dist
+2023-12-12 04:55:02 761741 [apk_name] : io.kodular.rcrofficework.Learn_English.apk
+2023-12-12 04:55:02 761766 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 04:55:02 761791 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 04:55:02 761823 [outputDir] : /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/iccbot
+2023-12-12 04:55:02 763437 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/unpack/dist  -name io.kodular.rcrofficework.Learn_English.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/iccbot 
+2023-12-12 04:55:02 764384 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/unpack/dist  -name io.kodular.rcrofficework.Learn_English.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/iccbot 
+2023-12-12 04:55:02 765464 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/unpack/dist  -name io.kodular.rcrofficework.Learn_English.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.rcrofficework.Learn_English-5/iccbot 
+2023-12-12 05:03:43 374377 [new_icc_res] : /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/iccbot/com.mvb2.sunset
+2023-12-12 05:03:43 374449 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:03:43 374480 [apks_dir] : /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/unpack/dist
+2023-12-12 05:03:43 374505 [apk_name] : com.mvb2.sunset.apk
+2023-12-12 05:03:43 374530 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:03:43 374555 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:03:43 374578 [outputDir] : /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/iccbot
+2023-12-12 05:03:43 376410 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/unpack/dist  -name com.mvb2.sunset.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/iccbot 
+2023-12-12 05:03:43 377646 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/unpack/dist  -name com.mvb2.sunset.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/iccbot 
+2023-12-12 05:03:43 378926 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/unpack/dist  -name com.mvb2.sunset.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.mvb2.sunset-1/iccbot 
+2023-12-12 05:09:24 880850 [new_icc_res] : /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/iccbot/com.tabyiid.assnan.app_luna
+2023-12-12 05:09:24 880939 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:09:24 880969 [apks_dir] : /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/unpack/dist
+2023-12-12 05:09:24 881011 [apk_name] : com.tabyiid.assnan.app_luna.apk
+2023-12-12 05:09:24 881053 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:09:24 881079 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:09:24 881135 [outputDir] : /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/iccbot
+2023-12-12 05:09:24 883032 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/unpack/dist  -name com.tabyiid.assnan.app_luna.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/iccbot 
+2023-12-12 05:09:24 884047 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/unpack/dist  -name com.tabyiid.assnan.app_luna.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/iccbot 
+2023-12-12 05:09:24 885369 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/unpack/dist  -name com.tabyiid.assnan.app_luna.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.tabyiid.assnan.app_luna-2/iccbot 
+2023-12-12 05:09:41 635743 [new_icc_res] : /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/iccbot/com.DesainBajuMuslimcouple.wisnua
+2023-12-12 05:09:41 635816 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:09:41 635846 [apks_dir] : /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/unpack/dist
+2023-12-12 05:09:41 635874 [apk_name] : com.DesainBajuMuslimcouple.wisnua.apk
+2023-12-12 05:09:41 635898 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:09:41 635924 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:09:41 635948 [outputDir] : /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/iccbot
+2023-12-12 05:09:41 637518 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/unpack/dist  -name com.DesainBajuMuslimcouple.wisnua.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/iccbot 
+2023-12-12 05:09:41 638542 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/unpack/dist  -name com.DesainBajuMuslimcouple.wisnua.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/iccbot 
+2023-12-12 05:09:41 639661 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/unpack/dist  -name com.DesainBajuMuslimcouple.wisnua.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.DesainBajuMuslimcouple.wisnua-3/iccbot 
+2023-12-12 05:09:55 262219 [new_icc_res] : /home/yuxin/code/accessTest/result/b4a.johorgolf-2/iccbot/b4a.johorgolf
+2023-12-12 05:09:55 262289 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:09:55 262320 [apks_dir] : /home/yuxin/code/accessTest/result/b4a.johorgolf-2/unpack/dist
+2023-12-12 05:09:55 262346 [apk_name] : b4a.johorgolf.apk
+2023-12-12 05:09:55 262370 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:09:55 262395 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:09:55 262419 [outputDir] : /home/yuxin/code/accessTest/result/b4a.johorgolf-2/iccbot
+2023-12-12 05:09:55 263994 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/b4a.johorgolf-2/unpack/dist  -name b4a.johorgolf.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/b4a.johorgolf-2/iccbot 
+2023-12-12 05:09:55 264983 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/b4a.johorgolf-2/unpack/dist  -name b4a.johorgolf.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/b4a.johorgolf-2/iccbot 
+2023-12-12 05:09:55 266036 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/b4a.johorgolf-2/unpack/dist  -name b4a.johorgolf.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/b4a.johorgolf-2/iccbot 
+2023-12-12 05:11:30 642555 [new_icc_res] : /home/yuxin/code/accessTest/result/com.min.crocknroll-2/iccbot/com.min.crocknroll
+2023-12-12 05:11:30 642624 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:11:30 642654 [apks_dir] : /home/yuxin/code/accessTest/result/com.min.crocknroll-2/unpack/dist
+2023-12-12 05:11:30 642679 [apk_name] : com.min.crocknroll.apk
+2023-12-12 05:11:30 642704 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:11:30 642729 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:11:30 642753 [outputDir] : /home/yuxin/code/accessTest/result/com.min.crocknroll-2/iccbot
+2023-12-12 05:11:30 644310 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.min.crocknroll-2/unpack/dist  -name com.min.crocknroll.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.min.crocknroll-2/iccbot 
+2023-12-12 05:11:30 645263 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.min.crocknroll-2/unpack/dist  -name com.min.crocknroll.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.min.crocknroll-2/iccbot 
+2023-12-12 05:11:30 646349 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.min.crocknroll-2/unpack/dist  -name com.min.crocknroll.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.min.crocknroll-2/iccbot 
+2023-12-12 05:11:39 345129 [new_icc_res] : /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/iccbot/com.botasepessegos.fishnjump
+2023-12-12 05:11:39 345199 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:11:39 345239 [apks_dir] : /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/unpack/dist
+2023-12-12 05:11:39 345278 [apk_name] : com.botasepessegos.fishnjump.apk
+2023-12-12 05:11:39 345316 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:11:39 345354 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:11:39 345393 [outputDir] : /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/iccbot
+2023-12-12 05:11:39 347465 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/unpack/dist  -name com.botasepessegos.fishnjump.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/iccbot 
+2023-12-12 05:11:39 348429 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/unpack/dist  -name com.botasepessegos.fishnjump.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/iccbot 
+2023-12-12 05:11:39 349535 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/unpack/dist  -name com.botasepessegos.fishnjump.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.botasepessegos.fishnjump-1/iccbot 
+2023-12-12 05:11:50 400772 [new_icc_res] : /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/iccbot/com.droidcook.kiss.love.wallpaper
+2023-12-12 05:11:50 400842 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:11:50 400872 [apks_dir] : /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/unpack/dist
+2023-12-12 05:11:50 400897 [apk_name] : com.droidcook.kiss.love.wallpaper.apk
+2023-12-12 05:11:50 400920 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:11:50 400945 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:11:50 400968 [outputDir] : /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/iccbot
+2023-12-12 05:11:50 402467 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/unpack/dist  -name com.droidcook.kiss.love.wallpaper.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/iccbot 
+2023-12-12 05:11:50 403378 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/unpack/dist  -name com.droidcook.kiss.love.wallpaper.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/iccbot 
+2023-12-12 05:11:50 404426 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/unpack/dist  -name com.droidcook.kiss.love.wallpaper.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.droidcook.kiss.love.wallpaper-8/iccbot 
+2023-12-12 05:12:56 173009 [new_icc_res] : /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/iccbot/com.droidmedic.internettechnologies
+2023-12-12 05:12:56 173080 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:12:56 173110 [apks_dir] : /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/unpack/dist
+2023-12-12 05:12:56 173135 [apk_name] : com.droidmedic.internettechnologies.apk
+2023-12-12 05:12:56 173160 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:12:56 173184 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:12:56 173207 [outputDir] : /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/iccbot
+2023-12-12 05:12:56 174891 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/unpack/dist  -name com.droidmedic.internettechnologies.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/iccbot 
+2023-12-12 05:12:56 175884 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/unpack/dist  -name com.droidmedic.internettechnologies.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/iccbot 
+2023-12-12 05:12:56 176860 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/unpack/dist  -name com.droidmedic.internettechnologies.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.droidmedic.internettechnologies-4/iccbot 
+2023-12-12 05:13:14 356395 [new_icc_res] : /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/iccbot/com.app4joy.hungary_free
+2023-12-12 05:13:14 356465 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:13:14 356496 [apks_dir] : /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/unpack/dist
+2023-12-12 05:13:14 356520 [apk_name] : com.app4joy.hungary_free.apk
+2023-12-12 05:13:14 356545 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:13:14 356567 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:13:14 356590 [outputDir] : /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/iccbot
+2023-12-12 05:13:14 358227 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/unpack/dist  -name com.app4joy.hungary_free.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/iccbot 
+2023-12-12 05:13:14 359214 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/unpack/dist  -name com.app4joy.hungary_free.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/iccbot 
+2023-12-12 05:13:14 360181 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/unpack/dist  -name com.app4joy.hungary_free.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.app4joy.hungary_free-414/iccbot 
+2023-12-12 05:14:19 615639 [new_icc_res] : /home/yuxin/code/accessTest/result/sure.overandundertips-1/iccbot/sure.overandundertips
+2023-12-12 05:14:19 615708 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:14:19 615763 [apks_dir] : /home/yuxin/code/accessTest/result/sure.overandundertips-1/unpack/dist
+2023-12-12 05:14:19 615787 [apk_name] : sure.overandundertips.apk
+2023-12-12 05:14:19 615825 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:14:19 615865 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:14:19 615887 [outputDir] : /home/yuxin/code/accessTest/result/sure.overandundertips-1/iccbot
+2023-12-12 05:14:19 617678 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/sure.overandundertips-1/unpack/dist  -name sure.overandundertips.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/sure.overandundertips-1/iccbot 
+2023-12-12 05:14:19 618877 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/sure.overandundertips-1/unpack/dist  -name sure.overandundertips.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/sure.overandundertips-1/iccbot 
+2023-12-12 05:14:19 619954 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/sure.overandundertips-1/unpack/dist  -name sure.overandundertips.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/sure.overandundertips-1/iccbot 
+2023-12-12 05:27:35 277234 [new_icc_res] : /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/iccbot/io.kodular.monstersindia239.nickname
+2023-12-12 05:27:35 277303 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:27:35 277332 [apks_dir] : /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/unpack/dist
+2023-12-12 05:27:35 277389 [apk_name] : io.kodular.monstersindia239.nickname.apk
+2023-12-12 05:27:35 277412 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:27:35 277467 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:27:35 277488 [outputDir] : /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/iccbot
+2023-12-12 05:27:35 279240 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/unpack/dist  -name io.kodular.monstersindia239.nickname.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/iccbot 
+2023-12-12 05:27:35 280294 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/unpack/dist  -name io.kodular.monstersindia239.nickname.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/iccbot 
+2023-12-12 05:27:35 281322 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/unpack/dist  -name io.kodular.monstersindia239.nickname.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.monstersindia239.nickname-6/iccbot 
+2023-12-12 05:36:16 234084 [new_icc_res] : /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/iccbot/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro
+2023-12-12 05:36:16 234163 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:36:16 234203 [apks_dir] : /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/unpack/dist
+2023-12-12 05:36:16 234238 [apk_name] : io.kodular.foxaplicativos2019.Web_Radio_Granjeiro.apk
+2023-12-12 05:36:16 234270 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:36:16 234300 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:36:16 234330 [outputDir] : /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/iccbot
+2023-12-12 05:36:16 235931 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/unpack/dist  -name io.kodular.foxaplicativos2019.Web_Radio_Granjeiro.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/iccbot 
+2023-12-12 05:36:16 236984 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/unpack/dist  -name io.kodular.foxaplicativos2019.Web_Radio_Granjeiro.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/iccbot 
+2023-12-12 05:36:16 238128 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/unpack/dist  -name io.kodular.foxaplicativos2019.Web_Radio_Granjeiro.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/io.kodular.foxaplicativos2019.Web_Radio_Granjeiro-1/iccbot 
+2023-12-12 05:38:18 332794 [new_icc_res] : /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/iccbot/com.orangemuffin.impulse
+2023-12-12 05:38:18 332869 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:38:18 332907 [apks_dir] : /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/unpack/dist
+2023-12-12 05:38:18 332935 [apk_name] : com.orangemuffin.impulse.apk
+2023-12-12 05:38:18 332960 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:38:18 332984 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:38:18 333008 [outputDir] : /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/iccbot
+2023-12-12 05:38:18 334533 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/unpack/dist  -name com.orangemuffin.impulse.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/iccbot 
+2023-12-12 05:38:18 335464 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/unpack/dist  -name com.orangemuffin.impulse.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/iccbot 
+2023-12-12 05:38:18 336424 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/unpack/dist  -name com.orangemuffin.impulse.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.orangemuffin.impulse-23/iccbot 
+2023-12-12 05:38:58 240419 [new_icc_res] : /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/iccbot/ro.pontes.culturagenerala
+2023-12-12 05:38:58 240492 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:38:58 240523 [apks_dir] : /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/unpack/dist
+2023-12-12 05:38:58 240548 [apk_name] : ro.pontes.culturagenerala.apk
+2023-12-12 05:38:58 240573 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:38:58 240597 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:38:58 240627 [outputDir] : /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/iccbot
+2023-12-12 05:38:58 242234 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/unpack/dist  -name ro.pontes.culturagenerala.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/iccbot 
+2023-12-12 05:38:58 243170 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/unpack/dist  -name ro.pontes.culturagenerala.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/iccbot 
+2023-12-12 05:38:58 244227 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/unpack/dist  -name ro.pontes.culturagenerala.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/ro.pontes.culturagenerala-65/iccbot 
+2023-12-12 05:39:11 673114 [new_icc_res] : /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/iccbot/com.lakhaapp.guideforrobjail
+2023-12-12 05:39:11 673186 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:39:11 673215 [apks_dir] : /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/unpack/dist
+2023-12-12 05:39:11 673239 [apk_name] : com.lakhaapp.guideforrobjail.apk
+2023-12-12 05:39:11 673261 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:39:11 673283 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:39:11 673305 [outputDir] : /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/iccbot
+2023-12-12 05:39:11 675118 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/unpack/dist  -name com.lakhaapp.guideforrobjail.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/iccbot 
+2023-12-12 05:39:11 676177 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/unpack/dist  -name com.lakhaapp.guideforrobjail.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/iccbot 
+2023-12-12 05:39:11 677253 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/unpack/dist  -name com.lakhaapp.guideforrobjail.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.lakhaapp.guideforrobjail-1/iccbot 
+2023-12-12 05:39:29 187101 [new_icc_res] : /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/iccbot/com.screenshot.easyscreenshot.capturescreen
+2023-12-12 05:39:29 187168 [iccbot_dir] : /home/yuxin/code/accessTest/enhance/icc
+2023-12-12 05:39:29 187197 [apks_dir] : /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/unpack/dist
+2023-12-12 05:39:29 187220 [apk_name] : com.screenshot.easyscreenshot.capturescreen.apk
+2023-12-12 05:39:29 187243 [iccjar_path] : /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar
+2023-12-12 05:39:29 187266 [androidJar] : /home/yuxin/code/accessTest/enhance/icc/lib/platforms
+2023-12-12 05:39:29 187294 [outputDir] : /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/iccbot
+2023-12-12 05:39:29 188939 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/unpack/dist  -name com.screenshot.easyscreenshot.capturescreen.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client CTGClient  -outputDir /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/iccbot 
+2023-12-12 05:39:29 190080 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/unpack/dist  -name com.screenshot.easyscreenshot.capturescreen.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client IROutputClient  -outputDir /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/iccbot 
+2023-12-12 05:39:29 190981 timeout 13m java -jar -Xmx6g /home/yuxin/code/accessTest/enhance/icc/ICCBot.jar  -path /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/unpack/dist  -name com.screenshot.easyscreenshot.capturescreen.apk  -androidJar  /home/yuxin/code/accessTest/enhance/icc/lib/platforms  -time  10  -maxPathNumber  1000  -client ICCSpecClient  -outputDir /home/yuxin/code/accessTest/result/com.screenshot.easyscreenshot.capturescreen-3/iccbot 

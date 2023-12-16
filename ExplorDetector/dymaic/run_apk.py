@@ -3,7 +3,7 @@ import time
 import sys
 
 from dymaic import extra, currFrag, target, startact
-from fuzz import intype
+from fuzz import intype, findTextFromUI
 from structure import mywidget, screen
 from tools import findres, eigenvector, getshot
 
@@ -168,7 +168,11 @@ def start(project, device, other_s, activity, component, dcommnd):
                 inputType = res[0]
             else:
                 inputType = 'none'
-            fuzz_str = intype.create(inputType)
+                # zyx
+            fuzz_str = findTextFromUI.findInUI(dxml, widgetu2.info)
+            if fuzz_str == '':
+                fuzz_str = intype.create(inputType)
+
             print("[+] Screen fuzz_str: ", fuzz_str)
             try:
                 # widgetu2.click()
@@ -361,13 +365,93 @@ def run(project, device):
     print("[+] Successful start Activity: ", scess_start_activity)
     print("[-] Fault start Activity: ", fault_start_activity)
 
-    # Try Start Fault start Activity
-    for activity in fault_start_activity:
+    # # Try Start Fault start Activity
+    # for activity in fault_start_activity:
+    #     try:
+    #         res = fault_start(fault_start_activity=activity, project=project, device=device)
+    #         if res:
+    #             print("[+] New restart activity: ", activity)
+    #         else:
+    #             print("[-] Can't restart activity: ", activity)
+    #     except:
+    #         continue
+
+
+
+# zyx
+# 开启动态探索
+def runAgain(project, device, node_weight):
+    global scess_start_activity, fault_start_activity
+    # install apk
+    # apk_path = project.apk_path
+    # cmd = "adb -s " + device.dev_id + " install " + apk_path
+    # try:
+    #     result = subprocess.check_output(cmd, shell=True)
+    #     if b"Success" in result:
+    #         print("[+] Success install apk: ", apk_path)
+    #     else:
+    #         return
+    # except:
+    #     return
+    pairs = project.parseMain
+    print("[pairs]", pairs)
+    for activity, other in pairs.items():
+        flag = "Fault"
+        print("[OTHER]: ")
+        print(other)
+        # This is the defined format of uiautomator
+        component = project.used_name + '/' + activity  # com.example.mynav/com.example.mynav.MainActivity
+        dcommnd = []
+        other.append(['', ''])
+        for s in other:
+            try:
+                flag = start(project, device, s, activity, component, dcommnd)
+            except:
+                continue
+        # if flag == "Fault":
+        #     print("Fault: ", activity)
+        #     fault_start_activity.append(activity)
+    print("[+] Successful start Activity: ", scess_start_activity)
+    # print("[-] Fault start Activity: ", fault_start_activity)
+
+    # # Try Start Fault start Activity
+    # for activity in fault_start_activity:
+    #     # zyx
+    #     if activity in scess_start_activity:
+    #         continue
+    #     with open(project.faultStartAct, "a") as f:
+    #         f.writelines(activity + "\n")
+    #
+    #     try:
+    #         print("Start Fault Activity: ", activity)
+    #         res = fault_start(fault_start_activity=activity, project=project, device=device)
+    #         if res:
+    #             print("[+] New restart activity: ", activity)
+    #         else:
+    #             print("[-] Can't restart activity: ", activity)
+    #     except:
+    #         continue
+
+    # zyx
+    # zyx
+    with open(project.screenTrans, "a") as f:
+        # f.writelines(fault_start_activity + " : " + screenvector + "\n")
+        print("test")
+        print(project.screenobject)
+        # f.writelines("test")
         try:
-            res = fault_start(fault_start_activity=activity, project=project, device=device)
-            if res:
-                print("[+] New restart activity: ", activity)
-            else:
-                print("[-] Can't restart activity: ", activity)
+            for screen_obj in project.screenobject:
+                print(screen_obj.act)
+                print(screen_obj.nextact)
+                f.writelines(screen_obj.act + " -> " + str(screen_obj.nextact) + "\n")
+                print("test1")
+                print(screen_obj.actrans)
+                for w2act in screen_obj.actrans:
+                    try:
+                        f.writelines(w2act[0] + " : " + str(w2act[1].info) + "\n")
+                    except:
+                        print(w2act[0])
+                        print(str(w2act[1].info))
+                f.writelines("\n")
         except:
-            continue
+            f.writelines("none")

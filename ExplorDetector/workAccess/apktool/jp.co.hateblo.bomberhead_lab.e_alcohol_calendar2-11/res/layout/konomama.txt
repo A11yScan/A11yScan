@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/allview" android:background="#fff5deb3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adUnitId="ca-app-pub-6563784790218565/1193191136" ads:adSize="BANNER" ads:loadAdOnCreate="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/Text00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="If you keep this pace…" />
+        <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="270.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_gravity="left" android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="Weight" />
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="left" android:layout_width="130.0dip" android:layout_height="25.0dip" android:layout_margin="1.0dip" android:text="　 5years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text1" android:layout_width="110.0dip" android:layout_height="25.0dip" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="left" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_margin="1.0dip" android:text="Kg" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="25.0dip" android:layout_margin="1.0dip" android:text="　10years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text2" android:layout_width="110.0dip" android:layout_height="25.0dip" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_margin="1.0dip" android:text="Kg" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="　15years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text3" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="Kg" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="　20years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text4" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="Kg" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_gravity="left" android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="Expense" />
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="　 5years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text5" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tuuka1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" />"
+</LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="　10years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text6" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tuuka2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="　15years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text7" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tuuka3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/back_zu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="1.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="　20years later" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="right" android:id="@id/Text8" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tuuka4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:text="*Intake calories and expense only by alcohol are calculated." />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_marginLeft="20.0dip">
+            <Button android:layout_gravity="center" android:background="@drawable/chenge_botan" android:layout_width="70.0dip" android:layout_height="35.0dip" android:layout_margin="2.0dip" android:text="Back" android:onClick="modoru" />
+            <Button android:id="@id/button7" android:background="@drawable/chenge_tub" android:layout_width="70.0dip" android:layout_height="35.0dip" android:layout_margin="2.0dip" android:text="Calendar" android:onClick="karenda" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

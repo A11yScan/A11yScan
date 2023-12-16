@@ -22,7 +22,7 @@ def shot(devices, project, name, cmd):
         if i == 0:
             pic_dir = os.path.join(project.screenshot_dir, name+".png")
             tempXML = devices.dump_hierarchy()
-        elif i <= 10:
+        elif i <= 5:
             pic_dir = os.path.join(project.screenshot_dir, name+"_"+str(i)+".png")
         else:
             break
@@ -40,6 +40,10 @@ def shot(devices, project, name, cmd):
         time.sleep(3)
         print("scroll")
         subprocess.check_output(scroll_cmd, shell=True)
+        currentPackageName = devices.info['currentPackageName']
+        if currentPackageName != project.used_name:
+            flag = False
+            break
         time.sleep(5)
         newXml = devices.dump_hierarchy()
         # print(newXml)
