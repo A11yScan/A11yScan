@@ -3,6 +3,7 @@ import shutil
 import os
 from resourceAnalysis.getIssues import classIssues
 
+# A11yScan
 def remove_file(old_path, new_path):
     print(old_path)
     print(new_path)
