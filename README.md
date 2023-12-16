@@ -23,5 +23,5 @@ The **ExplorDetector** folder is the source code for logic-driven UI Exploration
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-com.afoollestad.png)
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-au.com.wall.png)
 * Cases for detecting false positives by using resource trees.
-  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20detecting%20false%20positives%20by%20using%20resource%20trees-UI%20Presentation.png)
-  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20detecting%20false%20positives%20by%20using%20resource%20trees-Specific%20UI%20Design.png)
+  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20detecting%20false%20positives%20by%20using%20UI%20resource%20trees-UI%20Presentation.png)
+  ![Image text]([https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20detecting%20false%20positives%20by%20using%20resource%20trees-Specific%20UI%20Design.png](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20detecting%20false%20positives%20by%20using%20UI%20resource%20trees-Specific%20UI%20Design.png))
