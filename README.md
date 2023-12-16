@@ -15,9 +15,6 @@ The **ExplorDetector** folder is the source code for logic-driven UI Exploration
 * Output: detection reports for accessibility issues and other relevant parsing results
 * Usage: python ExplorDetector/main.py [apks_folder], python ResourceAnalysis/run_analysis.py [result_folder]
 
-## Website
-* Dataset of 100 apps: https://drive.google.com/drive/folders/1WcWGclb2hRkTOuxxflyOTynVSjsEf_h2?usp=sharing
-
 ## Cases
 * Cases for panoramic UI exploration and detection.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-com.afoollestad.png)
