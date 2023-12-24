@@ -15,8 +15,15 @@ The **ExplorDetector** folder is the source code for logic-driven UI Exploration
 * Output: detection reports for accessibility issues and other relevant parsing results
 * Usage: python ExplorDetector/main.py [apks_folder], python ResourceAnalysis/run_analysis.py [result_folder]
 
+## UI Scenarios in App
+* Activity UI scenario: The initial state of different Activity pages in the app.
+* Activity-dependent UI scenarios: Each Activity includes various UI scenarios beyond the initially rendered UI page during runtime, such as fragment UI, drawer, menu, and dialog.
+* Activity-sensitive UI scenarios: When the states of other UI scenarios change due to interactions, the UI scenario of the current activity also undergoes corresponding changes.
+  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/activity-scenarios.png)
+
 ## Cases
 * Cases for panoramic UI exploration and detection.
+  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/exploration-example.png)
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-com.afoollestad.png)
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-au.com.wall.png)
 * Cases for detecting false positives by using resource trees.
