@@ -7,7 +7,7 @@ The goal of A11yScan is to automatically explore and detect accessibility issues
 * Python: 3.9
 * APKTool: 2.4.1
 * Java environment (jdk): jdk1.8.0_45
-* Android Emulator (x86_64): Android 11.0
+* Android Emulator (x86_64): Android 9.0
 
 ## Usage
 The **ExplorDetector** folder is the source code for Logic-Driven UI Exploration and Detection, while the **ResourceAnalysis** folder is for Fine-Grained Resource Analysis, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories AccessTemp and OutputFile under the "Files/Downloads" folder in the virtual machine.
