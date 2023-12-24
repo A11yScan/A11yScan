@@ -10,7 +10,7 @@ The goal of A11yScan is to automatically explore and detect accessibility issues
 * Android Emulator (x86_64): Android 11.0
 
 ## Usage
-The **ExplorDetector** folder is the source code for logic-driven UI Exploration and Detection, while the **ResourceAnalysis** folder is for Fine-Grained Resource Analysis, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories AccessTemp and OutputFile under the "Files/Downloads" folder in the virtual machine.
+The **ExplorDetector** folder is the source code for Logic-Driven UI Exploration and Detection, while the **ResourceAnalysis** folder is for Fine-Grained Resource Analysis, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories AccessTemp and OutputFile under the "Files/Downloads" folder in the virtual machine.
 * Input: the APK(s) file
 * Output: detection reports for accessibility issues and other relevant parsing results
 * Usage: python ExplorDetector/main.py [apks_folder], python ResourceAnalysis/run_analysis.py [result_folder]
