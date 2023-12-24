@@ -22,7 +22,7 @@ The **ExplorDetector** folder is the source code for logic-driven UI Exploration
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/activity-scenarios.png)
 
 ## Cases
-* Cases for panoramic UI exploration and detection.
+* Cases for logic-driven UI exploration and detection.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/exploration-example.png)
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-com.afoollestad.png)
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-au.com.wall.png)
