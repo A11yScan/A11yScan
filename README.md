@@ -7,19 +7,23 @@ The goal of A11yScan is to automatically explore and detect accessibility issues
 * Python: 3.9
 * APKTool: 2.4.1
 * Java environment (jdk): jdk1.8.0_45
-* Android Emulator (x86_64): Android 11.0
+* Android Emulator (x86_64): Android 9.0
 
 ## Usage
-The **ExplorDetector** folder is the source code for logic-driven UI Exploration and Detection, while the **ResourceAnalysis** folder is for Fine-Grained Resource Analysis, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories AccessTemp and OutputFile under the "Files/Downloads" folder in the virtual machine.
+The **ExplorDetector** folder is the source code for Logic-Driven UI Exploration and Detection, while the **ResourceAnalysis** folder is for Fine-Grained Resource Analysis, which uses resource trees to accurately analyze and report detected issues. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories AccessTemp and OutputFile under the "Files/Downloads" folder in the virtual machine.
 * Input: the APK(s) file
 * Output: detection reports for accessibility issues and other relevant parsing results
 * Usage: python ExplorDetector/main.py [apks_folder], python ResourceAnalysis/run_analysis.py [result_folder]
 
-## Website
-* Dataset of 100 apps: https://drive.google.com/drive/folders/1WcWGclb2hRkTOuxxflyOTynVSjsEf_h2?usp=sharing
+## UI Scenarios in App
+* Activity UI scenario: The initial state of different Activity pages in the app.
+* Activity-dependent UI scenarios: Each Activity includes various UI scenarios beyond the initially rendered UI page during runtime, such as fragment UI, drawer, menu, and dialog.
+* Activity-sensitive UI scenarios: When the states of other UI scenarios change due to interactions, the UI scenario of the current activity also undergoes corresponding changes.
+  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/activity-scenarios.png)
 
 ## Cases
-* Cases for panoramic UI exploration and detection.
+* Cases for logic-driven UI exploration and detection.
+  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/exploration-example.png)
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-com.afoollestad.png)
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-au.com.wall.png)
 * Cases for detecting false positives by using resource trees.
