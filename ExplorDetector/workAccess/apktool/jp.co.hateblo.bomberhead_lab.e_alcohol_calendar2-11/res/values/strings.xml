@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="d1">Current alcohol amount per 1 week</string>
+    <string name="d2">Oath</string>
+    <string name="app_name">Alcohol Reduction Diet</string>
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sut</string>
+    <string name="prevMonth">prevMonth</string>
+    <string name="nextMonth">nextMonth</string>
+    <string name="title">Title</string>
+    <string name="startTime">Start:</string>
+    <string name="endTime">End:</string>
+    <string name="allday">All day</string>
+    <string name="place">Place</string>
+    <string name="content">Content</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="newEvent">New Data</string>
+    <string name="cancel">Cancel</string>
+    <string name="deleteOK">Delete</string>
+    <string name="deleteConfirm">Are you sure you want to delete?</string>
+    <string name="title_activity_settei">Settei</string>
+    <string name="title_activity_kakakuhyou">Kakakuhyou</string>
+    <string name="title_activity_nyuuryoku">Nyuuryoku</string>
+    <string name="title_activity_shuturyoku">Shuturyoku</string>
+    <string name="title_activity_konomama">Konomama</string>
+    <string name="title_activity_setumei">Sonomama</string>
+    <string name="title_activity_tuuka">Tuuka</string>
+</resources>
