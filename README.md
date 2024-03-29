@@ -16,11 +16,11 @@ The **ExplorDetector** folder is the source code for Scenario-driven Exploration
 * Usage: python ExplorDetector/main.py [apks_folder], python ResourceAnalysis/run_analysis.py [result_folder]
 
 ## UI Scenarios in App
-* Activity UI scenario: The initial state of different Activity pages in the app.
+* Activity: The initial state of different Activity pages in the app.
 * Activity-dependent UI scenarios: Each Activity includes various UI scenarios beyond the initially rendered UI page during runtime, such as fragment UI, drawer, menu, and dialog.
 * Activity-sensitive UI scenarios: The new UI states of the current Activity when the states of other UI scenarios change due to user interactions.
 
-  As shown in this figure, clicking the menu button in the upper right corner of the first MainActivity can reach an Activity-dependent UI scenario (i.e., the second updated MainActivity), while user interaction flows (Adding a new category in CategoriesActivity) can lead to an activity-sensitive UI scenario (i.e., the last updated MainActivity). Failure to explore activity-dependent or activity-sensitive UI scenarios of apps would result in the inability to detect accessibility issues in them, such as Issue1, Issue2, and Issue3 in this example.
+As shown in this figure, clicking the menu button in the upper right corner of the first MainActivity can reach an Activity-dependent UI scenario (i.e., the second updated _MainActivity_), while user interaction flows (Adding a new category in _CategoriesActivity_) can lead to an activity-sensitive UI scenario (i.e., the last updated _MainActivity_). Failure to explore activity-dependent or activity-sensitive UI scenarios of apps would result in the inability to detect accessibility issues in them, such as Issue1, Issue2, and Issue3 in this example.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/scenarios.png)
 
 ## Cases
