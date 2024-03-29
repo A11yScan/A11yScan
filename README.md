@@ -30,6 +30,6 @@ As shown in this figure, clicking the menu button in the upper right corner of t
 A11yScan integrates a runtime context-aware analysis module that constructs two types of resource trees to provide runtime contextual information for detecting app accessibility issues. The pre-defined rules of ATF and the contextual information gained from constructing resource trees together constitute the newly-defined checking rules.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/context-aware-analysis.png)
   
-## The advantages of UI exploration compared to SceneDroid
+## The advantages of UI exploration compared to the state-of-the-art UI exploration tool
 Compared with the leading UI exploration tool SceneDroid, A11yScan can explore more UI scenarios, which is attributed to the novel scenario-driven UI exploration by explorating both activity-dependent and activity-sensitive UI scenarios.
 ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/compareWithSceneDroid.png)
