@@ -24,10 +24,10 @@ As shown in this figure, clicking the menu button in the upper right corner of t
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/scenarios.png)
 
 ## Cases
-* Cases for scenario-driven exploration.
+* Examples for scenario-driven exploration.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/exploration-example.png)
-  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-com.afoollestad.png)
-  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20logic-driven%20UI%20exploration%20and%20detection-au.com.wall.png)
-* Cases for detecting accessibility issues by using resource trees.
+  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20scenario-driven%20exploration-com.afoollestad.png)
+  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20scenario-driven%20exploration-au.com.wall.png)
+* A real example of using resource trees to obtain the contextual information of the detected UI component for accessibility detection.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/context-aware-analysis.png)
   
