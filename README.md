@@ -1,6 +1,6 @@
 # A11yScan-mobile
 ## A11yScan: Scenario-Driven and Context-Aware Automated Accessibility Testing for Android Apps
-The goal of A11yScan is to automatically explore and detect accessibility issues in Android apps. Compared with the existing tools, A11yScan uses a scenario-driven exploration method for improving the coverage of UI scenarios, thereby detecting accessibility issues within the app, which reduces the hidden danger of false negatives. Additionally, A11yScan introduces a context-aware detection method that provides a more fine-grained detection capability, which effectively reduces false positives. We have made the source code of A11yScan and the corresponding dataset publicly available. We hope this project can help more developers comprehensively and accurately detect accessibility issues. Please feel free to contact us if you have any questions and issues. We will continue to maintain this project. Thanks for your feedback.
+The goal of A11yScan is to automatically explore and detect accessibility issues in Android apps. Compared with the existing tools, A11yScan uses a scenario-driven UI exploration method for improving the coverage of UI scenarios, thereby detecting accessibility issues within the app, which reduces the hidden danger of false negatives. Additionally, A11yScan introduces a context-aware detection method that provides a more fine-grained detection capability, which effectively reduces false positives. We have made the source code of A11yScan and the corresponding dataset publicly available. We hope this project can help more developers comprehensively and accurately detect accessibility issues. Please feel free to contact us if you have any questions and issues. We will continue to maintain this project. Thanks for your feedback.
 
 ## Environment Configuration
 * Ubuntu/Macbook
@@ -10,7 +10,7 @@ The goal of A11yScan is to automatically explore and detect accessibility issues
 * Android Emulator (x86_64): Android 9.0
 
 ## Usage
-The **ExplorDetector** folder is the source code for Scenario-driven Exploration, while the **ResourceAnalysis** folder is for Context-aware Detection, which uses resource trees to assist in decision-making when checking the accessibility of the runtime UI scenarios. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories AccessTemp and OutputFile under the "Files/Downloads" folder in the virtual machine.
+The **ExplorDetector** folder is the source code for Scenario-driven UI Exploration, while the **ResourceAnalysis** folder is for Context-aware Detection, which uses resource trees to assist in decision-making when checking the accessibility of the runtime UI scenarios. Before testing, please install the monitoring app (**SUPERVISOR. apk**) on the virtual machine and grant storage permissions. In addition, it is necessary to create monitoring directories AccessTemp and OutputFile under the "Files/Downloads" folder in the virtual machine.
 * Input: the APK(s) file
 * Output: detection reports for accessibility issues and other relevant parsing results
 * Usage: python ExplorDetector/main.py [apks_folder], python ResourceAnalysis/run_analysis.py [result_folder]
@@ -24,10 +24,11 @@ As shown in this figure, clicking the menu button in the upper right corner of t
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/scenarios.png)
 
 ## Cases
-* Examples for scenario-driven exploration.
+* Examples for scenario-driven UI exploration.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/exploration-example.png)
-  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20scenario-driven%20exploration-com.afoollestad.png)
-  ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/Cases%20for%20scenario-driven%20exploration-au.com.wall.png)
 * A real example of using resource trees to obtain the contextual information of the detected UI component for accessibility detection.
   ![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/context-aware-analysis.png)
   
+## The advantages of UI exploration compared to SceneDroid
+Compared with the leading UI exploration tool SceneDroid, A11yScan can explore more UI scenarios, which is attributed to the novel scenario-driven UI exploration by explorating both activity-dependent and activity-sensitive UI scenarios.
+![Image text](https://github.com/A11yScan/A11yScan/blob/main/Cases/compareWithSceneDroid.png)
