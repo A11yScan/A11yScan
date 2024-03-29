@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/allview" android:background="#ffd3d3d3" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="Set your national Currency.($,€,￡.....)" />
-    <EditText android:textSize="18.0sp" android:gravity="center" android:layout_gravity="right" android:id="@id/editText1" android:layout_width="180.0dip" android:layout_height="50.0dip" android:ems="10" android:maxLength="8" android:inputType="text" />
-    <Button android:textColor="#ff8b4513" android:layout_gravity="right" android:id="@id/button7" android:background="@drawable/chenge_botan" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_margin="3.0dip" android:text="Save and go to next" android:onClick="hozon" />
-</LinearLayout>
